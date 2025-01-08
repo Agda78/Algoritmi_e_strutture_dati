@@ -70,6 +70,7 @@ int inversionCount(int arr[], int n) {
 
 int main(){
     int arr[] = {2,4,1,3,5};
+    
     int dim = sizeof(arr)/sizeof(arr[0]);
 
     int res = inversionCount(arr, dim);
